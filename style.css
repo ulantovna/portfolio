@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    background-color: #000;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul {
+    font-size: 18px;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ededed;
+}
+
+nav ul li a:hover {
+    color: #00abf9;
+}
+
+body {
+    height: 100vh;
+    background: url('web.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+section {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf9;
+}
+
+p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* Additional Styles for Gallery */
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Additional Styles for Contacts */
+.contacts-info {
+    margin-bottom: 30px;
+}
+
+.contacts-info p {
+    margin-bottom: 10px;
+}
+
+.contacts-info p a {
+    color: #00abf9;
+}
+
+.contacts-info p a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li a {
+    color: #00abf9;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}
