@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     color: #ededed;
     background-color: #000;
-    font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -53,7 +53,7 @@ nav ul li a:hover {
     color: #00abf9;
 }
 
-.index-section {
+body {
     height: 100vh;
     background: url('web.jpg') no-repeat;
     background-size: cover;
@@ -63,46 +63,28 @@ nav ul li a:hover {
     padding: 0 10%;
 }
 
-.index-section h1 {
+section {
+    max-width: 600px;
+}
+
+h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.index-section h3 {
+h3 {
     font-size: 32px;
     font-weight: 700;
     color: #00abf9;
 }
 
-.index-section p {
+p {
     font-size: 16px;
     margin: 20px 0 40px;
 }
 
-.about-section,
-.resume-section,
-.work-section,
-.gallery-section,
-.contacts-section {
-    max-width: 600px;
-}
-
-.about-section h2,
-.resume-section h2,
-.work-section h2,
-.gallery-section h2,
-.contacts-section h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.about-section p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
+/* Additional Styles for Gallery */
 .gallery-item {
     margin-bottom: 20px;
 }
@@ -117,6 +99,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+/* Additional Styles for Contacts */
 .contacts-info {
     margin-bottom: 30px;
 }
